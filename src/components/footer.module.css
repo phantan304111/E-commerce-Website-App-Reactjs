@@ -1,0 +1,24 @@
+.container{
+ 
+    background-color: black;
+    opacity: 0.8;
+    height: 316px;
+    position: relative;
+  
+    width:100% ;
+    color: azure;
+    display: flex;
+    justify-content: center;
+}
+.title h1 {
+font-size: x-large;
+padding: 25px 130px 0px 130px;
+
+}
+.title p {
+    font-size: large;
+    color: silver;
+}
+a {
+    text-decoration: none;
+}

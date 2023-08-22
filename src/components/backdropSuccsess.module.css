@@ -1,0 +1,155 @@
+.container{
+    position:fixed;
+    border-radius: 5%;
+    width: 455px;
+    height: 400px;
+    top: 19%;
+    bottom: 14%;
+    left: 40%;
+    right: 24%;
+    background-color: rgb(255, 255, 255);
+   
+    z-index: 33;
+}
+.wraps{
+    position: fixed;
+    left: 0px;
+top: 0px;
+right: 0px;
+    height: 1000px;
+    background-color: rgba(119, 117, 115, 0.5);
+    z-index: 40;
+}
+.itemContainer{
+    
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: 580px  ;
+}
+.item:first-child img{
+    border-radius: 40px;
+    padding-left: 5%;
+    padding-top: 15%;
+    grid-row: 1/2;
+ width: 90%;
+ text-align: center;
+}
+.item:last-child p {
+    font-size: 16px;
+}
+.hidden{
+    font-size: 36px;
+    position: relative;
+    top: 21px;
+    left: 28px;
+    margin-bottom: 200px;
+    cursor: pointer;
+}.item:last-child {
+    
+    padding-top: 10%;
+    width:90%;
+    height: 90%;
+    overflow-y: scroll;
+    white-space: pre-line;
+}
+.item:last-child button{
+    float: inline-end;
+  font-size: large;
+  width: 180px;
+  height: 40px;
+  color: beige;
+  font-weight: 500;
+  background-color: black;
+}
+
+.trigger_popup{
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+}
+#success_trigger{
+    background: #32ba7c;
+    position: fixed;
+    top:20%;
+    left:20%;
+}
+#error_trigger{
+    background: #ff3636;
+    position: fixed;
+    top:20%;
+    left:60%;
+}
+
+#success{
+    display: none;
+    position: fixed;
+    top:20%;
+    left:10%
+}
+#error{
+    display: none;
+    position: fixed;
+    top:20%;
+    left:55%;
+}
+
+.popup-content{ 
+ 
+ 
+    width: 326px;
+    height: 408px;
+    background: white;
+    box-shadow: 4px 4px 70px 10px rgb(0 0 0/11%);
+    border-radius: 25px;
+}
+.imgbox{
+    text-align: center;
+}
+.img{
+    width: 112px;
+    margin-top: 40px;
+}
+.title{
+    font-weight: 500;
+    font-size: 24px;
+   letter-spacing: 0.05em;
+   text-align: center;
+   margin: auto;
+}
+#success .title{
+   color: #32ba7c;
+}
+#error .title{
+    color: #ff3636;
+}
+.para{
+    font-weight: 500;
+    width: 80%;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin: auto;
+
+
+}
+.button{
+    width: 50%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 25px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+#s_button{
+    background: #32ba7c;
+}
+#e_button{
+    background: #ff3636;
+}

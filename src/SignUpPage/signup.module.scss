@@ -1,0 +1,42 @@
+.wrapper{
+
+
+background-color: rgb(244,245,249);
+height: max-content;
+}
+.wrapper img{
+width: 100%;
+}
+.formContainer{
+   
+    position: relative;
+    bottom: 500px;
+   border-radius: 10%;
+    background-color: rgb(1, 23, 16,0.1);
+    width: 30%;
+    left: 37%;
+    height: max-content;
+    z-index: 1;
+}
+.enteredInput{
+    border-radius: 10px;
+    padding-bottom: 40px;
+    padding-left: 20px;}
+.enteredInput input{
+    font-size: 20px;
+    padding-left: 4%;
+    border: 1px solid rgb(232, 225, 225) ;
+    // font-size: larger;
+  height: 70px;
+  width: 80%;
+}
+
+
+.enteredInput button{
+
+    font-size: 20px;
+    background-color:  black;
+    color: aliceblue;
+  height: 60px;
+  width: 80%;
+}

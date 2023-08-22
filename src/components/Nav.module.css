@@ -1,0 +1,38 @@
+.container {
+    
+    background-color:  white;
+    height: 56px;
+   position: fixed;
+
+   width: 91%;
+   top: 0;
+
+  z-index: 100;
+   cursor: pointer;
+}
+.container a {
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: rgb(10, 2, 2);
+}
+.title {
+    
+    position: absolute;
+    top: -11px;
+    left: 46%;
+    
+}
+.orange{
+   
+    color: #d7ae0d;
+    padding-bottom: 0.25rem;
+    border-bottom: 4px solid #da7603;
+}
+
+.container a:hover,
+.container a:active,
+.container a.active {
+  color: #ae0628;
+  padding-bottom: 0.25rem;
+  border-bottom: 4px solid #95bcf0;
+}
